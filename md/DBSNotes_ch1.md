@@ -28,8 +28,8 @@
 
 - 資料庫：一群有關聯的資料的集合。
 - 資料：可以被記錄，具有隱含意義的事實。
-- 迷你世界（論域, Universe of discourse, UoD)：真實世界的一部分儲存在資料庫中。
-- 資料庫管理系統（Database management system, DBMS)：可以管理資料庫的軟體，例如：MySQL、MariaDB、MS SQL ...
+- 迷你世界（論域, Universe of discourse, UoD）：真實世界的一部分儲存在資料庫中。
+- 資料庫管理系統（Database management system, DBMS）：可以管理資料庫的軟體，例如：MySQL、MariaDB、MS SQL ...
 - 資料庫系統：由 DBMS 與資料組成，有時應用程式也包括在內。
 
 
