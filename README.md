@@ -20,6 +20,7 @@
 
 ```
 /pdf
+| ------ DBSNotes_ch1.pdf
 /md
 | ------ DBSNotes_ch1.md
 | ------ DBSNotes_ch2.md
@@ -29,8 +30,8 @@
 
 ### Progress
 
-|           | Progress Status | Description |
-| :-------: | :-------------: | :---------: |
-| Chapter 1 | :fast_forward:  | 正在建造中  |
-| Chapter 2 | :fast_forward:  | 正在建造中  |
+|           |  Progress Status   |   Description    |
+| :-------: | :----------------: | :--------------: |
+| Chapter 1 | :white_check_mark: | 第一版本建造完成 |
+| Chapter 2 |   :fast_forward:   |    正在建造中    |
 
