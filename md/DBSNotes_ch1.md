@@ -6,20 +6,30 @@
 
 ## 資料庫
 
-### 資料庫
+### 資料庫類型
 
-- 通常是儲存數字與文字的傳統資料庫
-- 近幾年開始出現多媒體資料庫、地理資訊系統、資料倉儲等。
-- 近幾年除了傳統資料庫之外，也衍伸出了大數據儲存系統、NoSQL 系統等。
-
-
+- 傳統應用類型
+    - 數字與文字資料庫 (Numeric and Textual)
+- 近期發展類型
+    - 多媒體資料庫
+    - 地理資訊系統 (Geographic Information System, GIS)
+    - 生物與基因資料庫
+    - 資料倉儲 (Data Warehouses)
+    - 行動資料庫
+    - 即時資料庫 (Real-time and Active)
+```
+社交網路(Social Network)大量的交流資訊、搜尋引擎蒐集網頁資訊等......大量資料管理，促進各種新技術發展：
+- 大數據儲存系統(Big Data storage system)
+    - 使用大量伺服器組成大型資料庫叢集。
+- NOSQL Systems (Not Only SQL) 
+```
 
 ### 資料庫名詞的基本定義
 
 - 資料庫：一群有關聯的資料的集合。
 - 資料：可以被記錄，具有隱含意義的事實。
-- 迷你世界：真實世界的一部分儲存在資料庫中。
-- DBMS：可以管理資料庫的軟體，例如：MySQL、MariaDB、MS SQL ...
+- 迷你世界 (論域, Universe of discourse, UoD)：真實世界的一部分儲存在資料庫中。
+- 資料庫管理系統 (Database management system, DBMS)：可以管理資料庫的軟體，例如：MySQL、MariaDB、MS SQL ...
 - 資料庫系統：由 DBMS 與資料組成，有時應用程式也包括在內。
 
 
