@@ -35,7 +35,8 @@
 
   - 裡面的資料表格稱為模式構件（Schema Constructor），透過多個模式構件可以產生出模式圖。
 
-    <img src="/home/xuan/.config/Typora/typora-user-images/image-20221012155424626.png" alt="image-20221012155424626" style="zoom:50%;" />
+
+<img src="https://i.imgur.com/PJdT3vk.png" alt="image-20221012210003315" style="zoom: 67%;" />
 
 
 
@@ -46,3 +47,29 @@
 - 在初始灌檔進入資料庫時，資料庫即有第一次版本的資料狀態，稱為初始狀態。
   - 在之後的變更後每次都會產生一個資料狀態，即為版本上的變換。
   - 資料庫會確保每一次的資料狀態都是有效的，保證有效狀態（Valid State）。
+
+
+
+## 三層模式結構與資料獨立性
+
+### 三層模式結構
+
+- 資料庫具有三個主要特性：多視角、資料抽象化、資料獨立性。
+
+- 我們用三層模式結構（Three-schema Architecture），來更好的實作這三個主要的特性，主要分成以下三層：
+
+  - 內層（Internal Level）：也稱內模式（Internal Schema），
+
+    使用物理資料庫模型來實作，主要用於描述資料庫的物理儲存特性，資料在實際上儲存於這層。
+
+  - 概念層（Conceptual Level）：也稱概念模式（Conceptual Schema），
+
+    使用表示資料庫模型來實作，主要用於描述資料庫整個結構。
+
+  - 外層（External Level）：也稱視圖層，包含許多個外模式（External Schema）或用戶視角（User View），
+
+    使用概念資料庫模型為基底，再使用表示資料庫模型加以實作，描述使用者感興趣的一部分。
+
+- 在各層之間完成請求與將結果轉換的處理過程稱為映射（Ｍapping）。
+
+![image-20221012212651128](https://i.imgur.com/uP94UGc.png)
