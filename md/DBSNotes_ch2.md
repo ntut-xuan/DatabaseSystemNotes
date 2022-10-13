@@ -130,3 +130,20 @@
 - 面相簡單參與使用者的介面：單純為了某些特定的 Naive User，給定他們功能性軟體來完成資料庫上的操作。
 - 面相 DBA 的介面：包含一些僅由 DBA 能使用的操作，例如創立帳號、設定系統變數等等。
 
+
+
+## 資料庫系統環境
+
+> Priority Level 2: Temporality Skip.
+
+
+
+## DMBS 的集中式與 Client-Server 架構
+
+> Priority Level 2: Temporality Skip.
+
+
+
+## 資料庫管理系統的分類
+
+> Priority Level 2: Temporality Skip.
