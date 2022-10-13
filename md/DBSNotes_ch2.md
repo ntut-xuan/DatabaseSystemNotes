@@ -2,6 +2,9 @@
 
 > 參考書籍：
 >
+> 1. 《Databases System 7th Edition》─ Ramez Elmasri, Shamkant B. Navathe.
+> 2. 《數據庫系統基礎 第六版》─ Ramez Elmasri, Shamkant B. Navathe，李翔鷹、劉鑌、邱海艷、陳立軍譯
+>
 > 筆記作者：[黃漢軒](https://ntut-xuan.github.io)
 
 
@@ -90,4 +93,40 @@
 - 利用三層結構，使實作資料獨立變得更加簡單。
 
 
+
+## 資料庫語言與介面
+
+### 資料庫語言
+
+- 對於三層的結構而言：
+
+  - 對於外層與概念層上的溝通，資料庫設計者使用資料定義語言（Data Definition Language, DDL）來進行兩層上的映射。
+
+  - 對於概念層與內層上的溝通，使用儲存定義語言 （Storage Definition Language, SDL）來進行兩層上的映射。　
+
+  - 額外會再使用視角定義語言（View Definition Language, VDL）來讓用戶視角與概念層上進行映射。
+
+- 對於使用者說，使用資料操縱語言（Data Manipulation Language, DML），來透過 DBMS 進行資料庫上的 CRUD。
+
+  - DML 又可以分成高等與低等：
+    - 高等可以用簡潔的方式指定複雜的資料庫操作，通常指定要查詢哪些東西，稱為描述性語言（例如：SQL）。
+    - 低等則是從資料庫查詢單獨的紀錄或對象，並對資料庫進行一系列的操作。
+
+- 現今使用 SQL（Structured Query Language）來綜合 DDL、VDL 與 DML，但不包含 SDL。
+
+  - 為了將 SQL 僅限在概念層與外層上，故不包含在內層的 SDL。
+
+
+
+### DBMS 介面
+
+分成七類：
+
+- 面相 Web 客戶端或瀏覽器，基於菜單的介面：使用 Browser 來進行資料庫的操作。
+- 基於表單的介面：填寫表單來操作資料庫。
+- 圖形使用者介面：使用 GUI 來操作資料庫。
+- 自然語言介面：使用自然語言來理解與處理使用者描述的操作。
+- 語音輸入與輸出：使用語音來進行資料庫的操作。
+- 面相簡單參與使用者的介面：單純為了某些特定的 Naive User，給定他們功能性軟體來完成資料庫上的操作。
+- 面相 DBA 的介面：包含一些僅由 DBA 能使用的操作，例如創立帳號、設定系統變數等等。
 
