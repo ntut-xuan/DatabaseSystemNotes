@@ -21,6 +21,7 @@
 ```
 /pdf
 | ------ DBSNotes_ch1.pdf
+| ------ DBSNotes_ch2.pdf
 /md
 | ------ DBSNotes_ch1.md
 | ------ DBSNotes_ch2.md
@@ -30,8 +31,12 @@
 
 ### Progress
 
-|           |  Progress Status   |   Description    |
-| :-------: | :----------------: | :--------------: |
-| Chapter 1 | :white_check_mark: | 第一版本建造完成 |
-| Chapter 2 |   :fast_forward:   |    正在建造中    |
+|   章節    |      進度狀態      |     進度描述     |  完成時間  |
+| :-------: | :----------------: | :--------------: | :--------: |
+| Chapter 1 | :white_check_mark: | 第一版本建造完成 | 2022/10/05 |
+| Chapter 2 | :white_check_mark: | 第一版本建造完成 | 2022/10/13 |
+| Chapter 3 |   :fast_forward:   |    正在建造中    |            |
+| Chapter 4 |       :soon:       |      規劃中      |            |
+| Chapter 5 |       :soon:       |      規劃中      |            |
+| Chapter 9 |       :soon:       |      規劃中      |            |
 
