@@ -22,9 +22,11 @@
 /pdf
 | ------ DBSNotes_ch1.pdf
 | ------ DBSNotes_ch2.pdf
+| ------ DBSNotes_ch3.pdf
 /md
 | ------ DBSNotes_ch1.md
 | ------ DBSNotes_ch2.md
+| ------ DBSNotes_ch3.md
 ```
 
 
