@@ -40,7 +40,8 @@
 | Chapter 1 | :white_check_mark: | 第一版本建造完成 | 2022/10/05 |
 | Chapter 2 | :white_check_mark: | 第一版本建造完成 | 2022/10/13 |
 | Chapter 3 | :white_check_mark: | 第一版本建造完成 | 2022/10/25 |
-| Chapter 4 |   :fast_forward:   |    正在建造中    |            |
+| Chapter 4 | :white_check_mark: | 第一版本建造完成 | 2022/11/09 |
 | Chapter 5 |       :soon:       |      規劃中      |            |
+| Chapter 6 |       :soon:       |      規劃中      |            |
 | Chapter 9 |       :soon:       |      規劃中      |            |
 
