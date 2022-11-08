@@ -24,11 +24,13 @@
 | ------ DBSNotes_ch2.pdf
 | ------ DBSNotes_ch3.pdf
 | ------ DBSNotes_ch4.pdf
+| ------ DBSNotes_ch5.pdf
 /md
 | ------ DBSNotes_ch1.md
 | ------ DBSNotes_ch2.md
 | ------ DBSNotes_ch3.md
 | ------ DBSNotes_ch4.md
+| ------ DBSNotes_ch5.md
 ```
 
 
@@ -41,7 +43,7 @@
 | Chapter 2 | :white_check_mark: | 第一版本建造完成 | 2022/10/13 |
 | Chapter 3 | :white_check_mark: | 第一版本建造完成 | 2022/10/25 |
 | Chapter 4 | :white_check_mark: | 第一版本建造完成 | 2022/11/09 |
-| Chapter 5 |       :soon:       |      規劃中      |            |
+| Chapter 5 | :white_check_mark: | 第一版本建造完成 | 2022/11/09 |
 | Chapter 6 |       :soon:       |      規劃中      |            |
 | Chapter 9 |       :soon:       |      規劃中      |            |
 
